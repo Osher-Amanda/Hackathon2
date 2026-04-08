@@ -1,0 +1,12 @@
+my_string = "strings are..."
+
+
+print(description.upper())
+description = description.replace(are, is)
+print(description[0:7])
+
+
+
+
+
+
