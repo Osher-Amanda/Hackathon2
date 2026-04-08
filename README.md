@@ -1,51 +1,36 @@
-<<<<<<< HEAD
 ###########Interactive Quiz App
 
 An interactive full-stack quiz game where users answer timed questions, get instant feedback, and see their score on a leaderboard.
 
 ###About the Project
 
-Built as part of my 2nd Hackathon bootcamp to practice full-stack development with React (frontend), Node.js/Express (backend), and PostgreSQL (via Neon).
-The app includes a timer, progress bar, instant feedback, leaderboard, and quiz history.
+Built as part of my 2nd Hackathon bootcamp to practice full-stack development with React (frontend), Node.js/Express (backend), and PostgreSQL (via Neon). The app includes a timer, progress bar, instant feedback, leaderboard, and quiz history.
 
 ###Features
 
--Enter your name to begin
--10 random quiz questions per game
--Countdown timer for each question
--Progress bar showing quiz progress
--Instant correct / wrong answer feedback
--Final score display
--Leaderboard with saved scores
--Clear leaderboard button
--Quiz history shown after finishing
-
+-Enter your name to begin -10 random quiz questions per game -Countdown timer for each question -Progress bar showing quiz progress -Instant correct / wrong answer feedback -Final score display -Leaderboard with saved scores -Clear leaderboard button -Quiz history shown after finishing
 
 ###Tech Used
 
-**Frontend:** React, Vite, CSS
-**Backend:** Node.js, Express, CORS, dotenv
-**Database:** PostgreSQL via Neon
+Frontend: React, Vite, CSS Backend: Node.js, Express, CORS, dotenv Database: PostgreSQL via Neon
 
 ###Folder Structure
 
 Hackathon2/
-- client
-- server
 
+client
+server
 ###How to Run Locally
 
 ##Backend
 
 Open the server folder:
 
-cd server
-npm install
+cd server npm install
 
 Create a .env file in the server folder with your own database URL and port:
 
-PORT=5000
-DATABASE_URL=your_neon_database_url_here
+PORT=5000 DATABASE_URL=your_neon_database_url_here
 
 Start the backend server:
 
@@ -57,21 +42,12 @@ The backend runs on: http://localhost:5000
 
 Open a new terminal in the client folder:
 
-cd client
-npm install
-npm run dev
+cd client npm install npm run dev
 
 The frontend runs on: http://localhost:5173
 
 ###Key Learnings / Challenges
 
--Figuring out the timer and progress logic for the quiz.
--Connecting the frontend to the backend leaderboard.
--Giving instant feedback for each answer
+-Figuring out the timer and progress logic for the quiz. -Connecting the frontend to the backend leaderboard. -Giving instant feedback for each answer
 
-Author
-Osher Amanda Favel
-=======
-# FinalProject
-A smart rental-search web app with filters, comparison tool, favorites, notifications, and optional AI guidance
->>>>>>> 75d84a0167edc6219ce6a6f98ec6523857838913
+Author Osher Amanda Favel
