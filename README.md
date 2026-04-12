@@ -10,6 +10,11 @@ Built as part of my 2nd Hackathon bootcamp to practice full-stack development wi
 
 -Enter your name to begin -10 random quiz questions per game -Countdown timer for each question -Progress bar showing quiz progress -Instant correct / wrong answer feedback -Final score display -Leaderboard with saved scores -Clear leaderboard button -Quiz history shown after finishing
 
+###Demo video
+
+Watch the project walkthrough here: 
+https://www.loom.com/share/8dc66c36459d450eb44cad11c87e76ac
+
 ###Tech Used
 
 Frontend: React, Vite, CSS Backend: Node.js, Express, CORS, dotenv Database: PostgreSQL via Neon
